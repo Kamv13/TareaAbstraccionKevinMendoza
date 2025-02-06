@@ -7,7 +7,7 @@ namespace TareaAbstraccionKevinMendoza
         public double velocidad;
         public override double calcular()
         {
-            return distancia / velocidad;
+            return Math.Round(distancia / velocidad,2);
         }
 
         public override void Imprimir()
